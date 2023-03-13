@@ -19,5 +19,5 @@ console.log('Inserted documents =>', insertResult);
 }
 main()
  .then(console.log)
- .catch(console.error)-
+ .catch(console.error)
  .finally(() => client.close());
